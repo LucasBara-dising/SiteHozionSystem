@@ -1,0 +1,366 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <title>Hozion System</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <!-- link css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <!-- ------------------------------nav bar -------------------------------------------->
+    <nav class="navbar navbar-expand-lg navbar-light" id="nav">
+        <a class="navbar-brand" href="#">
+            <img src="img/LogoEmpresa.png" alt="logo da empresa" class="img-responsive" width="160px">
+        </a>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav navbar-left">
+                <li class="nav-item px-lg-2">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item px-lg-2">
+                    <a class="nav-link" href="#">Portifolio</a>
+                </li>
+                <li class="nav-item px-lg-2">
+                    <a class="nav-link" href="#">Sobre</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Contato
+                    </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Fale conosco</a>
+                        <a class="dropdown-item" href="#">Trabalhe conosco </a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!----------------------------Banner--------------------------- -->
+    <section class="jumbotron jumbotron-fluid" id="banner">
+        <div class="container">
+            <div class="row align-items-center">
+                <!-- conteudo da esquerda -->
+                <div class="col-md-5 col-sm-6 mobile-flex">
+                    <div class=" title mb-2">
+                        <p class="subject">Dising e Desenvolvimento</p>
+                    </div>
+                    <h3 class="mb-4">Far far away, behind the word
+                        mountains, far from the countries
+                        Vokalia and Consonantia, there live
+                        the blind texts</h3>
+                    <button class="btn btn-primary btn-lg">Saiba Mais </button>
+                </div>
+
+                <!-- imagem da direita -->
+                <div class="col-md-6 col-sm-6 pt-7 pt-sm-0">
+                    <div class="center-block img-responsive" id="imgBanner">
+                        <div class="image-zone">
+                            <img class="right-image" src="img/imgBannerIcon.svg" alt="Icon empresa banner" width="110%">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!---------------------- Serviços ------------------->
+    <section id="servicos">
+        <h2 class="text-center">SERVIÇOS</h2>
+        <h5 class="text-center mb-5">Soluções perfeitas para seus problemas</h5>
+
+        <div class="row ">
+            <div class="col-md-3" id="boxServ">
+                <img src="img/hexagono.png" alt="hexagono" width="50%" id="hexagono">
+                <img src="img/Dising.png" alt="icon disng" width="30%" id="iconServ">
+                <h5 class="text-center mt-4">Design Grafico</h5>
+                <h6 class="text-center">Lorem Ipsum is simply dummy text of
+                    the printing and typesetting industry. Lorem
+                    Ipsum has been the industry's standard dummy
+                </h6>
+            </div>
+
+            <div class="col-md-3" id="boxServ">
+                <img src="img/hexagono.png" alt="hexagono" width="50%" id="hexagono">
+                <img src="img/WebDising.png" alt="icon disng" width="30%" id="iconServ">
+                <h5 class="text-center mt-4">Web Desing</h5>
+                <h6 class="text-center">Lorem Ipsum is simply dummy text of
+                    the printing and typesetting industry. Lorem
+                    Ipsum has been the industry's standard dummy
+                </h6>
+            </div>
+
+            <div class="col-md-3" id="boxServ">
+                <img src="img/hexagono.png" alt="hexagono" width="50%" id="hexagono">
+                <img src="img/Desenvolvimento.png" alt="icon disng" width="30%" id="iconServ">
+                <h5 class="text-center mt-4">Desenvolvimento Web</h5>
+                <h6 class="text-center">Lorem Ipsum is simply dummy text of
+                    the printing and typesetting industry. Lorem
+                    Ipsum has been the industry's standard dummy
+                </h6>
+            </div>
+        </div>
+    </section>
+    <!-- sobre nos -->
+    <div class="container" id="sobreNos">
+        <div class="row align-items-center">
+            <!-- imagem da esquerda -->
+            <div class="col-md-6">
+                <div class="center-block img-responsive">
+                    <div class="image-zone">
+                        <img class="left-image" src="img/ImgSobreNos.svg" alt="Icon pessoas conversando " width="100%">
+                    </div>
+                </div>
+            </div>
+            <!-- conteudo da direita -->
+            <div class="col-md-5 mobile-flex">
+                <div class=" title mb-4">
+                    <h4 class="subject">Sobre Nos</h4>
+                </div>
+                <h3 class="mb-4">Responsabilidade e agilidade</h3>
+
+                <h4 class="mb-4">Lorem ipsum dolor sit amet
+                    consectetur adipisicing elit.
+                    Voluptatem neque nisi architecto
+                    autem molestias corrupti officia veniam</h4>
+            </div>
+        </div>
+    </div>
+
+    <!------------------------ Nossa equipe ------------------->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-sm-6">
+                <h3>Nome</h3>
+                <h2>Função</h2>
+                <img src="img/ImgSobreNos.svg" class="img-rounded " alt="foto do funcionario" style="width:20%">
+            </div>
+            <div class="col-md-6 col-sm-6">
+                <figure class="ocean">
+                    <figcaption>
+                        <strong>Customs House Brokers Import
+                            Compliance/<br>Clearance</strong>
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+    </div>
+
+    <!-- -------------Parceiros----------------- -->
+    <div class="container show-grid" id="Parceiros">
+        <h4 class="text-center" id="tituloParceiros">Parceiros</h4>
+        <div class="row">
+            <div class="col-md-2"><img src="img/LogoAbril.png" id="logosParceiros"></div>
+            <div class="col-md-2"><img src="img/LogoCorona.png" id="logosParceiros"></div>
+            <div class="col-md-2"><img src="img/LogoNatura.png" id="logosParceiros"></div>
+            <div class="col-md-2"><img src="img/LogoUnimed.png" id="logosParceiros"></div>
+            <div class="col-md-2"><img src="img/LogoAmil.png" id="logosParceiros"></div>
+        </div>
+    </div>
+
+    <!-- contato -->
+    <section id="contato">
+        <h2 class="text-center">Entre em contato</h2>
+
+        <div class="row">
+            <div class="col-md-3" id="boxContato">
+                <img src="img/local.png" alt="icon localização" width="20%" id="imgContato">
+                <h5 class="text-center mt-4">R. Guaipá, 678 -Vila Leopoldina</h5>
+            </div>
+
+            <div class="col-md-3" id="boxContato">
+                <img src="img/telefone.png" alt="icon telefone" width="20%" id="imgContato">
+                <h5 class="text-center mt-4">(11) 984211967</h5>
+            </div>
+
+            <div class="col-md-3" id="boxContato">
+                <img src="img/gmail.png" alt="icon gmail" width="20%" id="imgContato">
+                <h5 class="text-center mt-4">contato.horizon@gmail.com</h5>
+            </div>
+        </div>
+
+        <div id="formDuvida">
+            <h3>Alguma duvida?</h3>
+            <h5>envia pra gente</h5>
+            <form>
+                <div class="row">
+                    <div class="col-md-5">
+                        <div class="form-group">
+                            <label class="control-label">Nome</label>
+                            <input type="text" class="form-control" placeholder="Seu nome">
+                        </div>
+                    </div>
+
+                    <div class="col-md-5">
+                        <div class="form-group">
+                            <label class="control-label">Sobrenome</label>
+                            <input type="text" class="form-control" placeholder="Seu Sobrenome">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-10">
+                        <div class="form-group">
+                            <label class="control-label">Gmail</label>
+                            <input type="email" class="form-control" placeholder="Seu E-mail">
+                        </div>
+                    </div>
+
+                    <div class="col-sm-10">
+                        <div class="form-group">
+                            <label class="control-label">Assunto</label>
+                            <input type="text" class="form-control" placeholder="Assunto da Menssagem">
+                        </div>
+                    </div>
+
+                    <div class="col-sm-10">
+                        <div class="form-group">
+                            <label class="control-label">Menssagem</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"
+                                placeholder="..."></textarea>
+                        </div>
+                    </div>
+                </div>
+                <button type="button" class="btn btn-lg btn-primary submit" id="btnEnviar">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <img src="img/LogosemTexto.png" alt="logo sem fundo da sem texto" id="logoFooter">
+            <h6 class="text-center">Um horizonte para sua empresa</h6>
+
+            <div class="row" id="redesSociais">
+                <img src="img/facebookBranco.png" alt="facebook" id="redes" class="col-md-3">
+                <img src="img/instagramBranco.png" alt="instagram" id="redes" class="col-md-3">
+                <img src="img/linkedinBranco.png" alt="linkdin" id="redes" class="col-md-3">
+                <img src="img/twitterBranco.png" alt="twiter" id="redes" class="col-md-3">
+            </div>
+
+            <div class="row" id="itensFooter">
+                <div class="col-md-4 footer-column">
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <span>Portifolio</span>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Product 1</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Product 2</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" onclick="AbreLogin()">Entrar</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-md-4 footer-column">
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <span class="footer-title">Empresa</span>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Sobre Nos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Portilio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Equipe</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-md-4 footer-column">
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <span class="footer-title">Contato</span>
+                        </li>
+                        <li class="nav-item">
+                            <span class="nav-link" color="#aaa"><i class="fas fa-phone"></i>(11) 984211967</span>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="fas fa-envelope"></i>Fale Conosco</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="fas fa-star"></i>Feedback</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="text-center" id="Copyright">
+                <span class="copyright quick-links">Copyright &copy; Hozion System
+                    <script>document.write(new Date().getFullYear())</script>
+                </span>
+            </div>
+        </div>
+    </footer>
+
+    <!-- --------------------------------Box Login--------------------------------- -->
+    <div class="loginFundo" id="loginFundo">
+        <div class="container" id="loginForm">
+            <div class="row">
+                <div class="col-lg-12 col-md-8 login-box">
+                    <div class="col-lg-12 login-title">
+                        ADM PAINEL
+                    </div>
+                    <div class="col-lg-12 login-form">
+                        <form>
+                            <div class="form-group">
+                                <label class="form-control-label">USERNAME</label>
+                                <input type="email" id="loginGmail" class="form-control">
+                            </div>
+
+                            <div class="form-group">
+                                <label class="form-control-label">PASSWORD</label>
+                                <input type="password" id="loginSenha" class="form-control">
+                            </div>
+
+                            <div class="col-lg-12 login-btm login-button">
+                                <button type="submit" class="btn btn-outline-primary" id="login-button"
+                                    onclick="FechaLogin()">LOGIN</button>
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            //fecha box de login
+            function FechaLogin() {
+                loginFundo.style.display = "none";
+            }
+
+            //Abre box de login
+            function AbreLogin() {
+                loginFundo.style.display = "block";
+                loginFundo.style.top = "0%";
+                loginFundo.style.transition = "all 1s"
+            }
+
+            window.onclick = function (event) {
+                if (event.target == loginFundo) {
+                    loginFundo.style.display = "none";
+                    login.style.display = "none";
+                }
+            }
+        </script>
+</body>
+
+</html>
